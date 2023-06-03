@@ -2,7 +2,7 @@ import React from "react";
 
 const MainPage = () => {
 	const customBackgroundStyle = {
-		backgroundImage: "url('../src/assets/bg.png')",
+		backgroundImage: "url('../public/assets/bg.png')",
 		backgroundSize: "cover",
 		backgroundPosition: "center",
 		backgroundRepeat: "no-repeat",
@@ -15,24 +15,24 @@ const MainPage = () => {
 				<div className="flex absolute h-8 md:h-12 lg:h-16 w-auto top-6 left-10 flex-row gap-10 items-center z-50">
 					<img
 						className="h-4 md:h-8 lg:h-12 w-auto"
-						src="../src/assets/pojok.png"
+						src="../public/assets/pojok.png"
 						alt="idoly-pride-blue-logo"
 					/>
 					<img
 						className="h-8 md:h-12 lg:h-16 w-auto"
-						src="../src/assets/dase.png"
+						src="../public/assets/dase.png"
 						alt="dasesplace-logo"
 					/>
 				</div>
 				<div className="relative z-20">
 					<img
 						className="opacity-0 lg:opacity-100 lg:h-screen w-auto absolute top-0 left-0 ml-4"
-						src="../src/assets/1.png"
+						src="../public/assets/1.png"
 						alt="Hayasaka-Mei-1"
 					/>
 					<img
 						className="opacity-0 lg:opacity-100 lg:h-screen w-auto absolute top-0 right-0 mr-4"
-						src="../src/assets/2.png"
+						src="../public/assets/2.png"
 						alt="Hayasaka-Mei-6"
 					/>
 				</div>
@@ -40,7 +40,7 @@ const MainPage = () => {
 				<div className="flex flex-col h-screen justify-center items-center p-4 mx-auto">
 					<div className="text-center">
 						<img
-							src="../src/assets/middle.png"
+							src="../public/assets/middle.png"
 							alt="Gambar"
 							className="mx-auto w-24 md:w-32 lg:w-64 h-auto mb-4"
 						/>
