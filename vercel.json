@@ -6,9 +6,16 @@
 			"use": "@vercel/python"
 		},
 		{
-			"src": "npm run build",
-			"use": "@vercel/static-build"
+			"src": "src/main.jsx",
+			"use": "@vercel/static-build",
+			"config": {
+				"base": "/",
+				"outputDirectory": "dist"
+			}
 		}
 	],
-	"routes": [{ "src": "/api/(.*)", "dest": "api/main.py" }]
+	"routes": [
+		{ "src": "/api/(.*)", "dest": "api/main.py" },
+		{ "src": "/(.*)", "dest": "/dist/index.html" }
+	]
 }
