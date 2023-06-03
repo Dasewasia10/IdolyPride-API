@@ -1,6 +1,7 @@
 from flask import Flask, jsonify, request
 import json
 import os
+import sys
 
 app = Flask(__name__)
 
@@ -121,4 +122,6 @@ def api():
     return jsonify({'message': 'API is running'})
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
+    if 'serve' in sys.argv:  # Menjalankan server menggunakan gunicorn hanya saat argumen 'serve' ada
+        port = int(os.environ.get("PORT", 5000))
+        app.run(host="0.0.0.0", port=port)
