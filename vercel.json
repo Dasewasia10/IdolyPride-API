@@ -3,7 +3,7 @@
 	"output": "public",
 	"builds": [
 		{
-			"src": "gunicorn main:app --bind 0.0.0.0:$PORT",
+			"src": "api/main.py",
 			"use": "@vercel/python"
 		},
 		{ "src": "npm run dev", "use": "@vercel/static-build" }
