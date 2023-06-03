@@ -4,15 +4,13 @@ import os
 
 app = Flask(__name__)
 
-## CARD
-# Membaca file JSON 
+# Membaca file JSON
 with open('card.json', 'r') as file:
     card = json.load(file)
 
-# Route dengan metode GET 
+# Route dengan metode GET
 @app.route('/api/card', methods=['GET'])
 def get_all_card():
-    
     return jsonify(card)
 
 # Route dengan metode GET
@@ -116,8 +114,9 @@ def delete_idol(id):
     # Jika tidak ada idol dengan ID yang sesuai
     return jsonify({'message': 'idol not found'})
 
-@app.route('/')
-def home():
+# Route untuk menangani permintaan API dari React
+@app.route('/api', methods=['GET'])
+def api():
     return jsonify({'message': 'API is running'})
 
 if __name__ == "__main__":

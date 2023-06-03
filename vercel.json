@@ -4,10 +4,6 @@
 		{
 			"src": "api/main.py",
 			"use": "@vercel/python"
-		},
-		{
-			"src": "npm run build",
-			"use": "@vercel/static-build"
 		}
 	],
 	"routes": [
