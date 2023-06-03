@@ -8,7 +8,7 @@
 		{ "src": "npm run build", "use": "@vercel/static-build" }
 	],
 	"routes": [
-		{ "src": "/api/(.*)", "dest": "/api/main.py" },
+		{ "src": "api/(.*)", "dest": "/api/main.py" },
 		{ "src": "/(.*)", "dest": "/index.html" }
 	]
 }
