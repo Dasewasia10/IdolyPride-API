@@ -4,7 +4,8 @@
 		{
 			"src": "api/main.py",
 			"use": "@vercel/python"
-		}
+		},
+		{ "src": "vite build", "use": "@vercel/static-build" }
 	],
 	"routes": [
 		{ "src": "/api/(.*)", "dest": "/api/main.py" },
