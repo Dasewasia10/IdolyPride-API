@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 ## CARD
 # Membaca file JSON 
-with open('../api/card.json', 'r') as file:
+with open('card.json', 'r') as file:
     card = json.load(file)
 
 # Route dengan metode GET
@@ -61,7 +61,7 @@ def delete_card(id):
 
 ## IDOL
 # Membaca file JSON 
-with open('../api/idol.json', 'r') as file:
+with open('idol.json', 'r') as file:
     idol = json.load(file)
 
 # Route dengan metode GET 
