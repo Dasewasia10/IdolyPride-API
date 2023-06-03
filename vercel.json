@@ -1,9 +1,19 @@
 {
 	"version": 2,
 	"output": "public",
-	"builds": [{ "src": "main.py", "use": "@vercel/python" }],
+	"builds": [
+	  {
+		"src": "main.py",
+		"use": "@vercel/python"
+	  },
+	  {
+		"src": "requirements.txt",
+		"use": "@vercel/python"
+	  }
+	],
 	"routes": [
-		{ "src": "/api/(.*)", "dest": "/main.py" },
-		{ "src": "/", "dest": "/index.html" }
+	  { "src": "/api/(.*)", "dest": "/main.py" },
+	  { "src": "/(.*)", "dest": "/index.html" }
 	]
-}
+  }
+  
