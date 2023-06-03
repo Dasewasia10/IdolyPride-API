@@ -1,0 +1,32 @@
+[
+	{
+		"id": 1,
+		"name": "Sakura Kawasaki",
+		"jpname": "夢の共演",
+		"va": "Mai Kanno ()",
+		"description": "A carefree girl who cherishes everyday life. With past experiences, she can perceive the subtle emotions of others and possesses the kindness to provide support and comfort.",
+		"detail": [
+			{
+				"height": 156,
+				"weight": 44,
+				"threesize (B/W/H)": "82/57/81",
+				"birthday": "April 3",
+				"age": 17,
+				"hobby": "Exploring the unknown and acquiring new knowledge.",
+				"almameter": "Public Kōgaizaki High School"
+			}
+		],
+		"image": [
+			{
+				"icon": null,
+				"body1": null,
+				"body2": null,
+				"main": null,
+				"va_icon": null
+			}
+		],
+		"voice": [
+			{ "voice1": null, "voice2": null, "voice3": null, "voice4": null }
+		]
+	}
+]

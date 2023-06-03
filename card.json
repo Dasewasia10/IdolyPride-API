@@ -1,0 +1,53 @@
+[
+	{
+		"id": 1,
+		"title": "Dream Collaboration",
+		"name": "Sakura Kawasaki",
+		"jpname": "夢の共演",
+		"quote": "It's Gyo-Gyogyoto-san! I never met the real thing before! I really love this fish! Yay! I can't believe we can be on the same stage!",
+		"type": "Scorer",
+		"ability": "Visual",
+		"initial": 5,
+		"live-skill": [
+			{
+				"sid": 1,
+				"name": "With the Sunlight",
+				"description": [
+					{
+						"level": 1,
+						"description": "1050% Score gain, effect increases with more Buffs. STA 337 cost"
+					},
+					{
+						"level": 2,
+						"description": "1150% Score gain, effect increases with more Buffs. STA 369 cost"
+					},
+					{
+						"level": 3,
+						"description": "1250% Score gain, effect increases with more Buffs. STA 401 cost"
+					},
+					{
+						"level": 4,
+						"description": "1400% Score gain, effect increases with more Buffs. STA 449 cost"
+					},
+					{
+						"level": 5,
+						"description": "1550% Score gain, effect increases with more Buffs. STA 497 cost"
+					},
+					{
+						"level": 6,
+						"description": "1700% Score gain, effect increases with more Buffs. STA 545 cost"
+					}
+				]
+			}
+		],
+		"cheer": [
+			{ "level": 1, "description": "Increase Vocal by 1.0%" },
+			{ "level": 2, "description": "Increase Vocal by 1.5%" },
+			{ "level": 3, "description": "Increase Vocal by 2.0%" },
+			{ "level": 4, "description": "Increase Vocal by 3.0%" },
+			{ "level": 5, "description": "Increase Vocal by 4.0%" },
+			{ "level": 6, "description": "Increase Vocal by 5.0%" }
+		],
+		"image": [{ "icon": null, "full": null }]
+	}
+]
