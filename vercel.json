@@ -5,7 +5,7 @@
 		{ "src": "/api/(.*)", "dest": "/main.py" },
 		{
 			"src": "/",
-			"dest": "/public/index.html"
+			"dest": "/index.html"
 		}
 	]
 }
