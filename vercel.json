@@ -4,10 +4,11 @@
 		{
 			"src": "api/main.py",
 			"use": "@vercel/python"
+		},
+		{
+			"src": "npm run build",
+			"use": "@vercel/static-build"
 		}
 	],
-	"routes": [
-		{ "src": "/api/(.*)", "dest": "api/main.py" },
-		{ "src": "/(.*)", "dest": "/index.html" }
-	]
+	"routes": [{ "src": "/api/(.*)", "dest": "api/main.py" }]
 }
