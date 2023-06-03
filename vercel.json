@@ -1,6 +1,5 @@
 {
 	"version": 2,
-	"output": "public",
 	"builds": [
 		{
 			"src": "api/main.py",
