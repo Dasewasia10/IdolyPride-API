@@ -1,5 +1,6 @@
 from flask import Flask, jsonify, request
 import json
+import os
 
 app = Flask(__name__)
 
@@ -115,5 +116,10 @@ def delete_idol(id):
     # Jika tidak ada idol dengan ID yang sesuai
     return jsonify({'message': 'idol not found'})
 
+@app.route('/')
+def home():
+    return jsonify({'message': 'API is running'})
+
 if __name__ == '__main__':
-    app.run()
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port)
