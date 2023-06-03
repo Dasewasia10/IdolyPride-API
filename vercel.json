@@ -10,9 +10,5 @@
 	"routes": [
 		{ "src": "/api/(.*)", "dest": "api/main.py" },
 		{ "src": "/(.*)", "dest": "/index.html" }
-	],
-	"env": {
-		"APP_ENV": "production",
-		"PORT": 5000
-	}
+	]
 }
