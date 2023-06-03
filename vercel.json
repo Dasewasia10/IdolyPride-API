@@ -2,10 +2,13 @@
 	"version": 2,
 	"builds": [
 		{
-			"src": "gunicorn main:app --bind 0.0.0.0:$PORT",
+			"src": "api/main.py",
 			"use": "@vercel/python"
 		},
-		{ "src": "npm run build", "use": "@vercel/static-build" }
+		{
+			"src": "npm run build",
+			"use": "@vercel/static-build"
+		}
 	],
 	"routes": [
 		{ "src": "/api/(.*)", "dest": "api/main.py" },
