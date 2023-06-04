@@ -2,7 +2,7 @@ import React from "react";
 
 const MainPage = () => {
 	const customBackgroundStyle = {
-		backgroundImage: "url(/assets/bg.png')",
+		backgroundImage: "url('/assets/bg.png')",
 		backgroundSize: "cover",
 		backgroundPosition: "center",
 		backgroundRepeat: "no-repeat",
