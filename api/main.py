@@ -1,8 +1,36 @@
 from flask import Flask, jsonify, request
 import json
 import os
+from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://root:@localhost:5000/idolyp'
+db = SQLAlchemy(app)
+
+## Model
+class Card(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    title = db.Column(db.String(255))
+    name = db.Column(db.String(255))
+    jpname = db.Column(db.String(255))
+    quote = db.Column(db.Text)
+    type = db.Column(db.String(50))
+    ability = db.Column(db.String(50))
+    initial = db.Column(db.Integer)
+    live_skill = db.Column(db.JSON)
+    cheer = db.Column(db.JSON)
+    image = db.Column(db.JSON)
+
+class Idol(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(255))
+    jpname = db.Column(db.String(255))
+    va = db.Column(db.String(255))
+    description = db.Column(db.Text)
+    detail = db.Column(db.JSON)
+    image = db.Column(db.JSON)
+    voice = db.Column(db.JSON)
+
 
 ## CARD
 # Membaca file JSON 
@@ -12,7 +40,24 @@ with open('api/card.json', 'r') as file:
 # Route dengan metode GET
 @app.route('/api/card', methods=['GET'])
 def get_all_card():
-    return jsonify(card)
+    cards = Card.query.all()
+    result = []
+    for card in cards:
+        result.append({
+            'id': card.id,
+            'title': card.title,
+            'name': card.name,
+            'jpname': card.jpname,
+            'quote': card.quote,
+            'type': card.type,
+            'ability': card.ability,
+            'initial': card.initial,
+            'live-skill': card.live_skill,
+            'cheer': card.cheer,
+            'image': card.image
+        })
+    return jsonify(result)
+
 
 # Route dengan metode GET
 @app.route('/api/card/<int:id>', methods=['GET'])
