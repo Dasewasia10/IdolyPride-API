@@ -79,6 +79,52 @@ def get_idol(id):
 
     return jsonify({"message": "idol not found"})
 
+# Route dengan metode GET
+@app.route('/api/idol/<string:_id>', methods=['GET'])
+def get_idol_by__id(_id):
+    for item in idol:
+        if item['_id'] == _id:
+            return jsonify(item)
+
+    return jsonify({"message": "card not found"})
+
+# Route dengan metode GET
+# Route dengan metode GET
+@app.route('/api/idol/name/<name>', methods=['GET'])
+def get_idol_by_name(name):
+    # Mengubah underscore menjadi spasi
+    name_with_spaces = name.replace("_", " ")
+
+    # Mencari idol berdasarkan nama asli
+    for item in idol:
+        if item['name'] == name_with_spaces:
+            return jsonify(item)
+
+        # Mencari idol berdasarkan nama asli atau nama yang sudah dibalik (case insensitive)
+        reversed_name = " ".join(reversed(name_with_spaces.split(" ")))
+        if item['name'].lower().startswith(name_with_spaces.lower()) or item['name'].lower() == reversed_name.lower():
+            return jsonify(item)
+
+    return jsonify({"message": "idol not found"})
+
+# Route dengan metode GET
+@app.route('/api/idol/group/<group>', methods=['GET'])
+def get_idols_by_group(group):
+    # Mengubah underscore menjadi spasi
+    group_with_spaces = group.replace("_", " ")
+
+    idols = []
+    # Mencari idol berdasarkan group
+    for item in idol:
+        if 'detail' in item and item['detail'][0]['group'].lower() == group_with_spaces.lower():
+            idols.append(item)
+
+    if idols:
+        return jsonify(idols)
+    else:
+        return jsonify({"message": "idols not found"})
+
+
 @app.route('/api/idol', methods=['POST'])
 def add_idol():
     new_idol = request.get_json()  # Mendapatkan idol baru dari body permintaan
@@ -115,8 +161,8 @@ def delete_idol(id):
     # Jika tidak ada idol dengan ID yang sesuai
     return jsonify({'message': 'idol not found'})
 
-# Route untuk menangani permintaan API dari React
-@app.route('/api', methods=['GET'])
+# Fungsi untuk memastikan api memang sudah berjalan
+@app.route('/api/', methods=['GET'])
 def api():
     return jsonify({'message': 'API is running'})
 
