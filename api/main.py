@@ -1,8 +1,17 @@
 from flask import Flask, jsonify, request
+from flask_cors import CORS
 import json
 import os
 
 app = Flask(__name__)
+CORS(app)
+cors = CORS(app, resources={r"/api/*": {"origins": "https://idoly-pride-api.vercel.app"}})
+
+# Decorator untuk menambahkan header setelah respons dikirimkan
+@app.after_request
+def add_cors_headers(response):
+    response.headers['Access-Control-Allow-Origin'] = 'https://idoly-pride-api.vercel.app'
+    return response
 
 ## CARD
 # Membaca file JSON 
