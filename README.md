@@ -51,19 +51,21 @@ Note: It's recommended to use venv as environment. See [venv](https://docs.pytho
 
 ### Endpoints
 
-#### Card 
-<span style="color:red">**API data still on searching mission. Please be patient.**</span>
+#### Card
+
+**API data still on searching mission. Please be patient.**
 
 - `GET /api/card`: Get all cards.
-- `GET /api/card/<int:id>`: Get a card by ID.
+- `GET /api/card/<int:id>`: Get a card by id.
+- `GET /api/card/<string:_id>`: Get a card by \_id.
 - `POST /api/card`: Add a new card.
-- `PUT /api/card/<int:id>`: Update a card by ID.
-- `DELETE /api/card/<int:id>`: Delete a card by ID.
+- `PUT /api/card/<int:id>`: Update a card by id.
+- `DELETE /api/card/<int:id>`: Delete a card by id.
 
-#### Idol
+#### idol
 
 - `GET /api/idol`: Get all idols.
-- `GET /api/idol/<int:id>`: Get an idol by ID. Example: `GET /api/card/1`
+- `GET /api/idol/<int:id>`: Get an idol by id. Example: `GET /api/card/1`
   ```json
   {
     "id": 1,
@@ -71,11 +73,12 @@ Note: It's recommended to use venv as environment. See [venv](https://docs.pytho
     ...
   }
   ```
+- `GET /api/idol/<string:_id>`: Get an idol by \_id.
 - `GET /api/idol/name/<name>`: Get an idol by name (case-insensitive).
 - `GET /api/idol/group/<group>`: Get idols by group (case-insensitive).
 - `POST /api/idol`: Add a new idol.
-- `PUT /api/idol/<int:id>`: Update an idol by ID.
-- `DELETE /api/idol/<int:id>`: Delete an idol by ID.
+- `PUT /api/idol/<int:id>`: Update an idol by id.
+- `DELETE /api/idol/<int:id>`: Delete an idol by id.
 
 #### API Status
 
@@ -91,7 +94,7 @@ Here are some examples of how to use the API endpoints:
   GET /api/card
   ```
 
-- Get a card by ID:
+- Get a card by id:
 
   ```bash
   GET /api/card/1
@@ -107,6 +110,8 @@ Here are some examples of how to use the API endpoints:
   }
   ```
 
+- Get a card by \_id.
+
 - Add a new card:
 
   ```bash
@@ -120,7 +125,7 @@ Here are some examples of how to use the API endpoints:
   }
   ```
 
-- Update a card by ID:
+- Update a card by id:
 
   ```bash
   PUT /api/card/1
@@ -132,7 +137,7 @@ Here are some examples of how to use the API endpoints:
   }
   ```
 
-- Delete a card by ID:
+- Delete a card by id:
   ```bash
   DELETE /api/card/1
   ```
@@ -150,5 +155,7 @@ This project is licensed under the [MIT License](LICENSE).
 ### Acknowledgements
 
 Special thanks to [Idoly Pride](https://idolypride.jp/) for providing the data used in this API.
+
+```
 
 ```
