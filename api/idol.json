@@ -1,32 +1,1313 @@
 [
-	{
-		"id": 1,
-		"name": "Sakura Kawasaki",
-		"jpname": "夢の共演",
-		"va": "Mai Kanno ()",
-		"description": "A carefree girl who cherishes everyday life. With past experiences, she can perceive the subtle emotions of others and possesses the kindness to provide support and comfort.",
-		"detail": [
-			{
-				"height": 156,
-				"weight": 44,
-				"threesize (B/W/H)": "82/57/81",
-				"birthday": "April 3",
-				"age": 17,
-				"hobby": "Exploring the unknown and acquiring new knowledge.",
-				"almameter": "Public Kōgaizaki High School"
-			}
-		],
-		"image": [
-			{
-				"icon": null,
-				"body1": null,
-				"body2": null,
-				"main": null,
-				"va_icon": null
-			}
-		],
-		"voice": [
-			{ "voice1": null, "voice2": null, "voice3": null, "voice4": null }
-		]
-	}
+    {
+        "id": 1,
+        "_id": "ID01",
+        "name": "Kotono Nagase",
+        "jpname": "長瀬琴乃",
+        "va": "Mirai Tachibana (橘美來)",
+        "description": [
+            {
+                "jp": "大きな後悔を背負い戦う、孤独なアイドル。元々友人が多いタイプではないが、数年前のある出来事をきっかけに、さらに人との関わりを断つようになる。以降、一心不乱にアイドルを目指し、ひとりで練習に励むようになる。",
+                "en": "A lonely idol who fights with a heavy burden of regrets. Originally not the type to have many friends, but an event from several years ago became a catalyst for further cutting off connections with people. Since then, she single-mindedly pursues being an idol and devotes herself to practicing alone.",
+                "id": "Seorang idol yang kesepian dan berjuang dengan beban penyesalan yang berat. Awalnya bukan tipe orang yang memiliki banyak teman, tetapi suatu peristiwa beberapa tahun yang lalu menjadi pemicu bagi dia untuk semakin menjauh dari hubungan dengan orang lain. Sejak itu, dia dengan tekun mengejar menjadi seorang idol dan berlatih sendirian."
+            }
+        ],
+        "detail": [
+            {
+                "height": 162,
+                "weight": 43,
+                "threesize": "79/55/80",
+                "birthday": "December 25",
+                "age": 17,
+                "eye_color": "blue",
+                "hair_color": "black",
+                "hair_length": "to chest",
+                "apparent_age": "teen",
+                "group": "Tsuki no Tempest",
+                "hobby": "Singing, dancing",
+                "mbti": "ISTJ",
+                "almameter": "Private Seimei High School"
+            }
+        ],
+        "attribute": [
+            {
+                "hex_color": "#5c88da",
+                "group_icon": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/icon/IG%20Icon%20Group/IG_01.png",
+                "almameter_icon": null,
+                "va_icon": null
+            }
+        ],
+        "image": [
+            {
+                "icon": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/I%20Icon/I_ID01.png",
+                "sprite1": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/S01%20Sprite%201/S01_ID01.png",
+                "sprite2": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/S01%20Sprite%201/S01_ID01.png",
+                "main": null,
+                "birthday": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/BD%20Birthday/BD_ID01.jpg",
+                "keringat": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/KR%20Keringat/KR_ID01.png"
+            }
+        ],
+        "voice": [
+            {
+                "voice1": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V01_ID01.mp3",
+                "voice2": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V02_ID01.mp3",
+                "voice3": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V03_ID01.mp3",
+                "voice4": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V04_ID01.mp3"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "_id": "ID02",
+        "name": "Sakura Kawasaki",
+        "jpname": "夢の共演",
+        "va": "Mai Kanno (菅野真衣)",
+        "description": [
+            {
+                "jp": "何気ない日々を大切にする、天真爛漫な少女。過去の経験から、心の機微を感じ取り、寄り添ってあげられる優しさを持つ。",
+                "en": "A carefree girl who cherishes ordinary days. Due to past experiences, she can perceive the subtle emotions of others and has a kindness that allows her to empathize and support them.",
+                "id": "Seorang gadis ceria yang menghargai hari-hari biasa. Karena pengalaman masa lalu, dia bisa merasakan perasaan yang halus dari orang lain dan memiliki kebaikan hati yang memungkinkannya berempati dan mendukung mereka."
+            }
+        ],
+        "detail": [
+            {
+                "height": 156,
+                "weight": 44,
+                "threesize": "82/57/81",
+                "birthday": "April 3",
+                "age": 17,
+                "eye_color": "orange",
+                "hair_color": "blonde",
+                "hair_length": "to neck",
+                "apparent_age": "teen",
+                "group": "Sunny Peace",
+                "hobby": "Learning new things",
+                "mbti": "ENFP",
+                "almameter": "Public Hikarigasaki High School"
+            }
+        ],
+        "attribute": [
+            {
+                "hex_color": "#f69941",
+                "group_icon": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/icon/IG%20Icon%20Group/IG_02.png",
+                "almameter_icon": null,
+                "va_icon": null
+            }
+        ],
+        "image": [
+            {
+                "icon": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/I%20Icon/I_ID02.png",
+                "sprite1": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/S01%20Sprite%201/S01_ID02.png",
+                "sprite2": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/S01%20Sprite%201/S01_ID02.png",
+                "main": null,
+                "birthday": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/BD%20Birthday/BD_ID02.jpg",
+                "keringat": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/KR%20Keringat/KR_ID02.png"
+            }
+        ],
+        "voice": [
+            {
+                "voice1": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V01_ID02.mp3",
+                "voice2": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V02_ID02.mp3",
+                "voice3": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V03_ID02.mp3",
+                "voice4": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V04_ID02.mp3"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "_id": "ID03",
+        "name": "Rei Ichinose",
+        "jpname": "一ノ瀬怜",
+        "va": "Moeko Yuki (結城萌子)",
+        "description": [
+            {
+                "jp": "ダンスが大好きな高校3年生。上昇志向が強く、人一倍負けず嫌い。プロ意識が高いことから、彼女にとっての『正論』が、周囲には攻撃的な意見で押し付けるように聞こえ、衝突することも。",
+                "en": "A third-year high school student who loves dancing. She has a strong upward drive and is fiercely competitive. Because of her high professionalism, what she considers to be \"the right opinion\" can sound aggressive and confrontational to others, leading to conflicts.",
+                "id": "Seorang siswa SMA kelas tiga yang sangat menyukai menari. Dia memiliki dorongan yang kuat untuk maju dan sangat kompetitif. Karena profesionalismenya yang tinggi, apa yang dia anggap sebagai \"pendapat yang benar\" dapat terdengar agresif dan konfrontatif bagi orang lain, yang menyebabkan konflik."
+            }
+        ],
+        "detail": [
+            {
+                "height": 160,
+                "weight": 46,
+                "threesize": "83/56/85",
+                "birthday": "March 8",
+                "age": 18,
+                "eye_color": "green",
+                "hair_color": "blonde",
+                "hair_length": "to chest",
+                "apparent_age": "teen",
+                "group": "Sunny Peace",
+                "hobby": "Dance, theme parks, saving money",
+                "mbti": "ESTJ",
+                "almameter": "Private Reiba Girls' Academy High School"
+            }
+        ],
+        "attribute": [
+            {
+                "hex_color": "#ace3ef",
+                "group_icon": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/icon/IG%20Icon%20Group/IG_02.png",
+                "almameter_icon": null,
+                "va_icon": null
+            }
+        ],
+        "image": [
+            {
+                "icon": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/I%20Icon/I_ID03.png",
+                "sprite1": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/S01%20Sprite%201/S01_ID03.png",
+                "sprite2": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/S01%20Sprite%201/S01_ID03.png",
+                "main": null,
+                "birthday": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/BD%20Birthday/BD_ID03.jpg",
+                "keringat": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/KR%20Keringat/KR_ID03.png"
+            }
+        ],
+        "voice": [
+            {
+                "voice1": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V01_ID03.mp3",
+                "voice2": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V02_ID03.mp3",
+                "voice3": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V03_ID03.mp3",
+                "voice4": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V04_ID03.mp3"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "_id": "ID04",
+        "name": "Nagisa Ibuki",
+        "jpname": "伊吹渚",
+        "va": "Kokona Natsume (夏目ここな)",
+        "description": [
+            {
+                "jp": "友を想いアイドルを志した優しき少女。朗らかな笑顔で周囲を包み込む。自分に正直な琴乃の姿に惹かれ、ふたりは親友となった。そんな琴乃をサポートしたいと思い、アイドルを志した。",
+                "en": "A gentle girl who aspires to be an idol out of her love for her friends. She envelops her surroundings with a bright smile. She was drawn to Kotono's honest self and they became best friends. She wants to support Kotono and that's why she aspires to be an idol.",
+                "id": "Seorang gadis yang lembut dan bercita-cita menjadi seorang idol karena cintanya kepada teman-temannya. Dia menghiasi lingkungannya dengan senyuman cerah. Dia tertarik pada sifat jujur Kotono dan mereka menjadi sahabat karib. Dia ingin mendukung Kotono dan itulah sebabnya dia bercita-cita menjadi seorang idol."
+            }
+        ],
+        "detail": [
+            {
+                "height": 154,
+                "weight": 46,
+                "threesize": "83/59/85",
+                "birthday": "August 3",
+                "age": 17,
+                "eye_color": "red",
+                "hair_color": "brown",
+                "hair_length": "to shoulders",
+                "apparent_age": "teen",
+                "group": "Tsuki no Tempest",
+                "hobby": "Keeping a diary,Supporting Kotono",
+                "mbti": "INFP",
+                "almameter": "Private Seimei High School"
+            }
+        ],
+        "attribute": [
+            {
+                "hex_color": "#f56d9e",
+                "group_icon": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/icon/IG%20Icon%20Group/IG_01.png",
+                "almameter_icon": null,
+                "va_icon": null
+            }
+        ],
+        "image": [
+            {
+                "icon": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/I%20Icon/I_ID04.png",
+                "sprite1": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/S01%20Sprite%201/S01_ID04.png",
+                "sprite2": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/S01%20Sprite%201/S01_ID04.png",
+                "main": null,
+                "birthday": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/BD%20Birthday/BD_ID04.jpg",
+                "keringat": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/KR%20Keringat/KR_ID04.png"
+            }
+        ],
+        "voice": [
+            {
+                "voice1": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V01_ID04.mp3",
+                "voice2": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V02_ID04.mp3",
+                "voice3": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V03_ID04.mp3",
+                "voice4": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V04_ID04.mp3"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "_id": "ID05",
+        "name": "Haruko Saeki",
+        "jpname": "佐伯遙子",
+        "va": "Nao Sasaki (佐々木奈緒)",
+        "description": [
+            {
+                "jp": "一見クールビューティーだが、中身は地味な遅咲きアイドル。数年前にソロデビューを果たすも全く芽が出ていなかった苦労人。自らにアイドルとしての才がないと思いながらも、夢に向かい突き進む。",
+                "en": "Initially appearing as a cool beauty, she is actually a modest late-bloomer idol. Despite making a solo debut several years ago, she struggled to gain popularity. She believes she lacks talent as an idol, but she continues to pursue her dream with determination.",
+                "id": "Awalnya terlihat sebagai seorang kecantikan yang keren, dia sebenarnya seorang idol yang sederhana dan berkembang secara perlahan. Meskipun telah melakukan debut solo beberapa tahun yang lalu, dia berjuang untuk mendapatkan popularitas. Meskipun dia merasa kurang berbakat sebagai idol, dia terus mengejar mimpinya dengan tekad."
+            }
+        ],
+        "detail": [
+            {
+                "height": 163,
+                "weight": 48,
+                "threesize": "90/62/87",
+                "birthday": "January 3",
+                "age": 20,
+                "eye_color": "yellow",
+                "hair_color": "brown",
+                "hair_length": "to shoulders",
+                "apparent_age": "adult",
+                "group": "Sunny Peace",
+                "hobby": "Puzzles, exploring ruins, Playing alone",
+                "mbti": "INFJ",
+                "almameter": "Private Seiyo Gakuen University"
+            }
+        ],
+        "attribute": [
+            {
+                "hex_color": "#c1a7e2",
+                "group_icon": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/icon/IG%20Icon%20Group/IG_02.png",
+                "almameter_icon": null,
+                "va_icon": null
+            }
+        ],
+        "image": [
+            {
+                "icon": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/I%20Icon/I_ID05.png",
+                "sprite1": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/S01%20Sprite%201/S01_ID05.png",
+                "sprite2": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/S01%20Sprite%201/S01_ID05.png",
+                "main": null,
+                "birthday": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/BD%20Birthday/BD_ID05.jpg",
+                "keringat": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/KR%20Keringat/KR_ID05.png"
+            }
+        ],
+        "voice": [
+            {
+                "voice1": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V01_ID05.mp3",
+                "voice2": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V02_ID05.mp3",
+                "voice3": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V03_ID05.mp3",
+                "voice4": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V04_ID05.mp3"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "_id": "ID06",
+        "name": "Saki Shiraishi",
+        "jpname": "白石沙季",
+        "va": "Koharu Miyazawa (宮沢小春)",
+        "description": [
+            {
+                "jp": "妹想いで真面目に生きてきた、頭脳明晰な少女。絵に描いたような優等生で、学校では生徒会長も務める。そんな彼女が初めて、優等生な生き方から脱却すべく自ら憧れの世界へ飛び込む。",
+                "en": "A highly intelligent girl who has always lived with her sister in mind. She is like a perfect student, even serving as the student council president at school. For the first time, she ventures into the world of her aspirations to break free from her life as a perfect student.",
+                "id": "Awalnya terlihat sebagai seorang kecantikan yang keren, dia sebenarnya seorang idol yang sederhana dan berkembang secara perlahan. Meskipun telah melakukan debut solo beberapa tahun yang lalu, dia berjuang untuk mendapatkan popularitas. Meskipun dia merasa kurang berbakat sebagai idol, dia terus mengejar mimpinya dengan tekad."
+            }
+        ],
+        "detail": [
+            {
+                "height": 160,
+                "weight": 45,
+                "threesize": "84/58/80",
+                "birthday": "September 26",
+                "age": 18,
+                "eye_color": "purple",
+                "hair_color": "brown",
+                "hair_length": "to shoulders",
+                "apparent_age": "teen",
+                "group": "Tsuki no Tempest",
+                "hobby": "Reading, organizing, maps, Stamp rallies",
+                "mbti": "INFJ",
+                "almameter": "Public Hikarigasaki High School"
+            }
+        ],
+        "attribute": [
+            {
+                "hex_color": "#6aceb9",
+                "group_icon": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/icon/IG%20Icon%20Group/IG_01.png",
+                "almameter_icon": null,
+                "va_icon": null
+            }
+        ],
+        "image": [
+            {
+                "icon": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/I%20Icon/I_ID06.png",
+                "sprite1": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/S01%20Sprite%201/S01_ID06.png",
+                "sprite2": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/S01%20Sprite%201/S01_ID06.png",
+                "main": null,
+                "birthday": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/BD%20Birthday/BD_ID06.jpg",
+                "keringat": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/KR%20Keringat/KR_ID06.png"
+            }
+        ],
+        "voice": [
+            {
+                "voice1": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V01_ID06.mp3",
+                "voice2": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V02_ID06.mp3",
+                "voice3": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V03_ID06.mp3",
+                "voice4": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V04_ID06.mp3"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "_id": "ID07",
+        "name": "Chisa Shiraishi",
+        "jpname": "白石千紗",
+        "va": "Kanon Takao (高尾奏音)",
+        "description": [
+            {
+                "jp": "いつも姉の影に隠れているような、気弱で臆病な性格。姉に守られ続けてきたが故に、姉とは対照的に内向きな子に育ってきた。殻を破り、自らのコンプレックスを克服するため、事務所の門を叩く。",
+                "en": "A timid and fearful girl who always seems to be hiding in her sister's shadow. Due to being protected by her sister, she has grown up to be introverted and shy, contrasting with her sister's outgoing nature. To break out of her shell and overcome her own insecurities, she knocks on the doors of the agency.",
+                "id": "Seorang gadis yang pemalu dan penakut yang selalu tampak bersembunyi di bayangan kakaknya. Karena dilindungi oleh kakaknya, dia tumbuh menjadi seseorang yang introvert dan pemalu, berbeda dengan sifat ekstrovert kakaknya. Untuk keluar dari kecenderungan introvert dan mengatasi ketidakpastiannya sendiri, dia meminta kesempatan di kantor agensi."
+            }
+        ],
+        "detail": [
+            {
+                "height": 147,
+                "weight": 39,
+                "threesize": "76/58/78",
+                "birthday": "November 22",
+                "age": 17,
+                "eye_color": "purple",
+                "hair_color": "brown",
+                "hair_length": "to neck",
+                "apparent_age": "teen",
+                "group": "Sunny Peace",
+                "hobby": "Knitting, watching horror movies",
+                "mbti": "INFP",
+                "almameter": "Public Hikarigasaki High School"
+            }
+        ],
+        "attribute": [
+            {
+                "hex_color": "#e7bbd2",
+                "group_icon": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/icon/IG%20Icon%20Group/IG_02.png",
+                "almameter_icon": null,
+                "va_icon": null
+            }
+        ],
+        "image": [
+            {
+                "icon": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/I%20Icon/I_ID07.png",
+                "sprite1": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/S01%20Sprite%201/S01_ID07.png",
+                "sprite2": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/S01%20Sprite%201/S01_ID07.png",
+                "main": null,
+                "birthday": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/BD%20Birthday/BD_ID07.jpg",
+                "keringat": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/KR%20Keringat/KR_ID07.png"
+            }
+        ],
+        "voice": [
+            {
+                "voice1": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V01_ID07.mp3",
+                "voice2": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V02_ID07.mp3",
+                "voice3": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V03_ID07.mp3",
+                "voice4": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V04_ID07.mp3"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "_id": "ID08",
+        "name": "Suzu Narumiya",
+        "jpname": "成宮すず",
+        "va": "Kanata Aikawa (相川奏多)",
+        "description": [
+            {
+                "jp": "ドジでいじられやすいお嬢様。生意気で高飛車な態度が目立つが、不思議と不快感を与えず周囲からは温かく見守られている。あるトラブルから、半ば逃げるように星見プロダクションを訪れる。",
+                "en": "A clumsy and easily teased young lady from a well-to-do family. She has a cheeky and haughty attitude, but strangely, she doesn't cause discomfort and is warmly watched over by those around her. After a certain incident, she visits Hoshimi Productions, seemingly running away from something.",
+                "id": "Seorang gadis ceroboh yang sering diejek dari keluarga berada. Dia memiliki sikap bebal dan sombong, tetapi anehnya, dia tidak menimbulkan ketidaknyamanan dan diperhatikan dengan penuh kehangatan oleh orang di sekitarnya. Setelah insiden tertentu, dia mengunjungi Hoshimi Productions, seolah-olah berusaha melarikan diri dari sesuatu."
+            }
+        ],
+        "detail": [
+            {
+                "height": 142,
+                "weight": 35,
+                "threesize": "71/53/73",
+                "birthday": "September 13",
+                "age": 15,
+                "eye_color": "blue",
+                "hair_color": "brown",
+                "hair_length": "past waist",
+                "apparent_age": "teen",
+                "group": "Tsuki no Tempest",
+                "hobby": "Climbing to high places",
+                "mbti": "ENFP",
+                "almameter": "Private Reiba Girls' Academy Junior High School"
+            }
+        ],
+        "attribute": [
+            {
+                "hex_color": "#f2ee56",
+                "group_icon": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/icon/IG%20Icon%20Group/IG_01.png",
+                "almameter_icon": null,
+                "va_icon": null
+            }
+        ],
+        "image": [
+            {
+                "icon": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/I%20Icon/I_ID08.png",
+                "sprite1": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/S01%20Sprite%201/S01_ID08.png",
+                "sprite2": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/S01%20Sprite%201/S01_ID08.png",
+                "main": null,
+                "birthday": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/BD%20Birthday/BD_ID08.jpg",
+                "keringat": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/KR%20Keringat/KR_ID08.png"
+            }
+        ],
+        "voice": [
+            {
+                "voice1": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V01_ID08.mp3",
+                "voice2": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V02_ID08.mp3",
+                "voice3": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V03_ID08.mp3",
+                "voice4": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V04_ID08.mp3"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "_id": "ID09",
+        "name": "Mei Hayasaka",
+        "jpname": "早坂芽衣",
+        "va": "Moka Hinata (日向もか)",
+        "description": [
+            {
+                "jp": "何をしでかすか予測不能で無邪気な少女。直感に従って生きており、誰に対しても臆さず接する反面、人を思いやり、心を寄せることができる優しさを併せ持つ。",
+                "en": "An unpredictable and innocent girl who is capable of causing trouble. She lives according to her intuition and fearlessly interacts with anyone, while also possessing a kindness that allows her to care for and connect with others.",
+                "id": "Seorang gadis yang tidak terduga dan polos yang mampu menyebabkan masalah. Dia hidup berdasarkan intuisinya dan berani berinteraksi dengan siapa pun, sambil memiliki kebaikan hati yang memungkinkannya untuk peduli dan terhubung dengan orang lain."
+            }
+        ],
+        "detail": [
+            {
+                "height": 157,
+                "weight": 48,
+                "threesize": "86/58/84",
+                "birthday": "July 7",
+                "age": 16,
+                "eye_color": "red",
+                "hair_color": "brown",
+                "hair_length": "to shoulders",
+                "apparent_age": "teen",
+                "group": "Tsuki no Tempest",
+                "hobby": "Taking walks, playing with cats",
+                "mbti": "ESFP",
+                "almameter": "Private Seimei High School"
+            }
+        ],
+        "attribute": [
+            {
+                "hex_color": "#e03e52",
+                "group_icon": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/icon/IG%20Icon%20Group/IG_01.png",
+                "almameter_icon": null,
+                "va_icon": null
+            }
+        ],
+        "image": [
+            {
+                "icon": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/I%20Icon/I_ID09.png",
+                "sprite1": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/S01%20Sprite%201/S01_ID09.png",
+                "sprite2": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/S01%20Sprite%201/S01_ID09.png",
+                "main": null,
+                "birthday": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/BD%20Birthday/BD_ID09.jpg",
+                "keringat": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/KR%20Keringat/KR_ID09.png"
+            }
+        ],
+        "voice": [
+            {
+                "voice1": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V01_ID09.mp3",
+                "voice2": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V02_ID09.mp3",
+                "voice3": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V03_ID09.mp3",
+                "voice4": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V04_ID09.mp3"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "_id": "ID10",
+        "name": "Shizuku Hyodo",
+        "jpname": "兵藤雫",
+        "va": "Yukina Shuto (首藤志奈)",
+        "description": [
+            {
+                "jp": "根暗なアイドルオタクで、基本的には影を潜めている。しかし、ことアイドルの話になると饒舌になる。年上の古参ファンからも一目置かれるような、アイドルオタク界では有名人。",
+                "en": "An introverted idol otaku who usually keeps to herself. However, when it comes to idols, she becomes talkative. She is well-respected among older, long-time fans and is famous in the idol otaku community.",
+                "id": "Seorang penggemar idol yang pendiam dan cenderung berada di latar belakang. Namun, ketika berbicara tentang idol, dia menjadi bersemangat. Dia dihormati oleh penggemar lama yang lebih tua dan terkenal dalam komunitas idol otaku."
+            }
+        ],
+        "detail": [
+            {
+                "height": 150,
+                "weight": 40,
+                "threesize": "77/58/79",
+                "birthday": "October 15",
+                "age": 16,
+                "eye_color": "red",
+                "hair_color": "blue",
+                "hair_length": "to shoulders",
+                "apparent_age": "teen",
+                "group": "Sunny Peace",
+                "hobby": "Being an otaku, fishing",
+                "mbti": "INTP",
+                "almameter": "Public Hikarigasaki High School"
+            }
+        ],
+        "attribute": [
+            {
+                "hex_color": "#99c99b",
+                "group_icon": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/icon/IG%20Icon%20Group/IG_02.png",
+                "almameter_icon": null,
+                "va_icon": null
+            }
+        ],
+        "image": [
+            {
+                "icon": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/I%20Icon/I_ID10.png",
+                "sprite1": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/S01%20Sprite%201/S01_ID10.png",
+                "sprite2": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/S01%20Sprite%201/S01_ID10.png",
+                "main": null,
+                "birthday": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/BD%20Birthday/BD_ID10.jpg",
+                "keringat": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/KR%20Keringat/KR_ID10.png"
+            }
+        ],
+        "voice": [
+            {
+                "voice1": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V01_ID10.mp3",
+                "voice2": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V02_ID10.mp3",
+                "voice3": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V03_ID10.mp3",
+                "voice4": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V04_ID10.mp3"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "_id": "ID11",
+        "name": "Rui Tendo",
+        "jpname": "天動瑠依",
+        "va": "Sora Amamiya (雨宮天)",
+        "description": [
+            {
+                "jp": "ダンス、歌、パフォーマンスの全てにおいて秀でている天才アイドル。しかし実態は、圧倒的な努力に裏打ちされた確かな実力。ある人物に認められるため、苦しい道でも歩みを止めることはない。",
+                "en": "A genius idol who excels in dance, singing, and performance. However, behind her skills lies an immense amount of effort and solid talent. She never stops moving forward, even on a difficult path, in order to be recognized by a certain individual.",
+                "id": "Seorang idol jenius yang unggul dalam menari, menyanyi, dan penampilan. Namun, di balik kemampuannya terdapat upaya yang luar biasa dan bakat yang kokoh. Dia tidak pernah berhenti melangkah maju, bahkan di jalan yang sulit, demi diakui oleh seseorang."
+            }
+        ],
+        "detail": [
+            {
+                "height": 165,
+                "weight": 46,
+                "threesize": "84/56/84",
+                "birthday": "November 11",
+                "age": 17,
+                "eye_color": "red",
+                "hair_color": "gray",
+                "hair_length": "to chest",
+                "apparent_age": "teen",
+                "group": "TRINITYAiLE",
+                "hobby": "Idols",
+                "mbti": "INTJ",
+                "almameter": "Private Tsukide High School"
+            }
+        ],
+        "attribute": [
+            {
+                "hex_color": "#fcfaf1",
+                "group_icon": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/icon/IG%20Icon%20Group/IG_03.png",
+                "almameter_icon": null,
+                "va_icon": null
+            }
+        ],
+        "image": [
+            {
+                "icon": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/I%20Icon/I_ID11.png",
+                "sprite1": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/S01%20Sprite%201/S01_ID11.png",
+                "sprite2": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/S01%20Sprite%201/S01_ID11.png",
+                "main": null,
+                "birthday": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/BD%20Birthday/BD_ID11.jpg",
+                "keringat": null
+            }
+        ],
+        "voice": [
+            {
+                "voice1": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V01_ID11.mp3",
+                "voice2": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V02_ID11.mp3",
+                "voice3": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V03_ID11.mp3",
+                "voice4": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V04_ID11.mp3"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "_id": "ID12",
+        "name": "Sumire Okuyama",
+        "jpname": "奥山すみれ",
+        "va": "Momo Asakura (麻倉もも)",
+        "description": [
+            {
+                "jp": "中学生とは思えないほどしっかりとした、元天才子役。実家山形から通っているが、その苦労をおくびにもださずに笑顔を見せる。普段は中学生らしいハツラツさを見せ、気を抜くと方言が出てしまうことも。",
+                "en": "A mature and responsible girl, far beyond her middle school years, who was a former child prodigy. Despite commuting from Yamagata, her hometown, she never shows the hardships and always wears a smile. While displaying a lively spirit typical of a middle school student, she occasionally slips into her regional dialect when she relaxes.",
+                "id": "Seorang gadis yang matang dan bertanggung jawab, jauh melampaui usia SMP-nya, yang dulunya merupakan anak ajaib. Meskipun berkomuter dari Yamagata, kampung halamannya, dia tidak pernah menunjukkan kesulitan dan selalu tersenyum. Sambil menunjukkan semangat yang bersemangat seperti anak SMP pada umumnya, dia kadang-kadang tergelincir ke dialek daerahnya saat dia santai."
+            }
+        ],
+        "detail": [
+            {
+                "height": 147,
+                "weight": 37,
+                "threesize": "73/54/75",
+                "birthday": "May 5",
+                "age": 15,
+                "eye_color": "blue",
+                "hair_color": "green",
+                "hair_length": "to chest",
+                "apparent_age": "teen",
+                "group": "TRINITYAiLE",
+                "hobby": "Fruit picking, kendama",
+                "mbti": "INFJ",
+                "almameter": "Public Benibana Middle School"
+            }
+        ],
+        "attribute": [
+            {
+                "hex_color": "#ffe495",
+                "group_icon": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/icon/IG%20Icon%20Group/IG_03.png",
+                "almameter_icon": null,
+                "va_icon": null
+            }
+        ],
+        "image": [
+            {
+                "icon": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/I%20Icon/I_ID12.png",
+                "sprite1": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/S01%20Sprite%201/S01_ID12.png",
+                "sprite2": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/S01%20Sprite%201/S01_ID12.png",
+                "main": null,
+                "birthday": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/BD%20Birthday/BD_ID12.jpg",
+                "keringat": null
+            }
+        ],
+        "voice": [
+            {
+                "voice1": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V01_ID12.mp3",
+                "voice2": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V02_ID12.mp3",
+                "voice3": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V03_ID12.mp3",
+                "voice4": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V04_ID12.mp3"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "_id": "ID13",
+        "name": "Yu Suzumura",
+        "jpname": "鈴村優",
+        "va": "Shina Natsukawa (夏川椎菜)",
+        "description": [
+            {
+                "jp": "京都出身で、いつでも冷静なTRINITYAiLEのまとめ役。父は大企業の社長、母は有名女優のサラブレッドお嬢様。瑠依に魅了されたひとりで、常に彼女を第一に考え行動する。",
+                "en": "A calm and composed member of TRINITYAiLE, originally from Kyoto, who always takes charge. Her father is the president of a major company, and her mother is a famous actress, making her a high-class young lady. Fascinated by Rui, she constantly prioritizes and acts for her sake.",
+                "id": "Seorang anggota TRINITYAiLE yang tenang dan tenang, asli dari Kyoto, yang selalu bertanggung jawab. Ayahnya adalah presiden perusahaan besar, dan ibunya adalah aktris terkenal, menjadikannya seorang gadis berkelas tinggi. Terpesona oleh Rui, dia selalu memprioritaskan dan bertindak demi kepentingannya."
+            }
+        ],
+        "detail": [
+            {
+                "height": 155,
+                "weight": 46,
+                "threesize": "88/59/86",
+                "birthday": "February 27",
+                "age": 16,
+                "eye_color": "yellow",
+                "hair_color": "brown",
+                "hair_length": "to chest",
+                "apparent_age": "teen",
+                "group": "TRINITYAiLE",
+                "hobby": "Observing Rui",
+                "mbti": "INFJ",
+                "almameter": "Private Tsukide High School"
+            }
+        ],
+        "attribute": [
+            {
+                "hex_color": "#aece6e",
+                "group_icon": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/icon/IG%20Icon%20Group/IG_03.png",
+                "almameter_icon": null,
+                "va_icon": null
+            }
+        ],
+        "image": [
+            {
+                "icon": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/I%20Icon/I_ID13.png",
+                "sprite1": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/S01%20Sprite%201/S01_ID13.png",
+                "sprite2": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/S01%20Sprite%201/S01_ID13.png",
+                "main": null,
+                "birthday": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/BD%20Birthday/BD_ID13.jpg",
+                "keringat": null
+            }
+        ],
+        "voice": [
+            {
+                "voice1": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V01_ID13.mp3",
+                "voice2": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V02_ID13.mp3",
+                "voice3": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V03_ID13.mp3",
+                "voice4": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V04_ID13.mp3"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "_id": "ID14",
+        "name": "Rio Kanzaki",
+        "jpname": "神崎莉央",
+        "va": "Haruka Tomatsu (戸松遥)",
+        "description": [
+            {
+                "jp": "勝利に貪欲で、攻撃的なスタイルを持つLizNoir不動のセンター。活動休止を経て、ある因縁を断ち切る為に復活した。誰よりも強い覚悟で、アイドル業界の頂点を目指す。",
+                "en": "A competitive and aggressive member of LizNoir, driven by a hunger for victory. She serves as the unwavering center of the group. After a period of hiatus, she made a comeback to sever a certain fate. With a determination stronger than anyone else's, she aims for the pinnacle of the idol industry.",
+                "id": "Seorang anggota LizNoir yang kompetitif dan agresif, didorong oleh keinginan untuk kemenangan. Dia menjadi pusat yang teguh dalam kelompok tersebut. Setelah masa hiatus, dia kembali untuk memutuskan takdir tertentu. Dengan tekad yang lebih kuat daripada siapa pun, dia bertujuan mencapai puncak industri idola."
+            }
+        ],
+        "detail": [
+            {
+                "height": 160,
+                "weight": 44,
+                "threesize": "83/56/83",
+                "birthday": "August 28",
+                "age": 22,
+                "eye_color": "purple",
+                "hair_color": "gray",
+                "hair_length": "to neck",
+                "apparent_age": "adult",
+                "group": "LizNoir",
+                "hobby": "Running, Visiting pancake shops",
+                "mbti": "ENTJ",
+                "almameter": "Private Tsukide High School (Alumni)"
+            }
+        ],
+        "attribute": [
+            {
+                "hex_color": "#ae5287",
+                "group_icon": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/icon/IG%20Icon%20Group/IG_04.png",
+                "almameter_icon": null,
+                "va_icon": null
+            }
+        ],
+        "image": [
+            {
+                "icon": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/I%20Icon/I_ID14.png",
+                "sprite1": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/S01%20Sprite%201/S01_ID14.png",
+                "sprite2": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/S01%20Sprite%201/S01_ID14.png",
+                "main": null,
+                "birthday": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/BD%20Birthday/BD_ID14.jpg",
+                "keringat": null
+            }
+        ],
+        "voice": [
+            {
+                "voice1": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V01_ID14.mp3",
+                "voice2": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V02_ID14.mp3",
+                "voice3": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V03_ID14.mp3",
+                "voice4": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V04_ID14.mp3"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "_id": "ID15",
+        "name": "Aoi Igawa",
+        "jpname": "井川葵",
+        "va": "Ayahi Takagaki (高垣彩陽)",
+        "description": [
+            {
+                "jp": "感情の起伏が少なく、常に冷静なLizNoirのブレーン。自分の考えをストレートに表現するが、態度はクール。デビュー前から苦楽を共にした神崎莉央の最大の理解者である。",
+                "en": "A member of LizNoir who remains emotionally steady and serves as the cool-headed brain of the group. She expresses her thoughts straightforwardly, but her demeanor is cool. She is the greatest understanding and supporter of Kanazaki Rio, with whom she shared joys and sorrows even before their debut.",
+                "id": "Seorang anggota LizNoir yang tetap stabil secara emosional dan menjadi otak yang tenang dalam kelompok tersebut. Dia mengekspresikan pikirannya dengan jujur, tetapi sikapnya tetap kalem. Dia adalah pendukung dan pengertian terbesar bagi Kanazaki Rio, dengan siapa dia berbagi sukacita dan duka sejak sebelum debut mereka."
+            }
+        ],
+        "detail": [
+            {
+                "height": 157,
+                "weight": 45,
+                "threesize": "79/57/75",
+                "birthday": "June 19",
+                "age": 17,
+                "eye_color": "yellow",
+                "hair_color": "gray",
+                "hair_length": "to neck",
+                "apparent_age": "teen",
+                "group": "LizNoir",
+                "hobby": "none",
+                "mbti": "ISTJ",
+                "almameter": "Private Tsukide High School"
+            }
+        ],
+        "attribute": [
+            {
+                "hex_color": "#6f77cc",
+                "group_icon": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/icon/IG%20Icon%20Group/IG_04.png",
+                "almameter_icon": null,
+                "va_icon": null
+            }
+        ],
+        "image": [
+            {
+                "icon": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/I%20Icon/I_ID15.png",
+                "sprite1": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/S01%20Sprite%201/S01_ID15.png",
+                "sprite2": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/S01%20Sprite%201/S01_ID15.png",
+                "main": null,
+                "birthday": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/BD%20Birthday/BD_ID15.jpg",
+                "keringat": null
+            }
+        ],
+        "voice": [
+            {
+                "voice1": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V01_ID15.mp3",
+                "voice2": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V02_ID15.mp3",
+                "voice3": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V03_ID15.mp3",
+                "voice4": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V04_ID15.mp3"
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "_id": "ID16",
+        "name": "Ai Komiyama",
+        "jpname": "小美山愛",
+        "va": "Minako Kotobuki (寿美菜子)",
+        "description": [
+            {
+                "jp": "人を笑顔にすることが大好きな、LizNoirのムードメーカー。確かな技術力を持っているが、肝心な時にとんでもない不器用さを見せる。冗談が通じ辛く、こころの言うことを信じすぎる節がある。",
+                "en": "A cheerful mood maker of LizNoir who loves to bring smiles to people. She possesses solid skills but often exhibits incredible clumsiness at crucial moments. She has a hard time getting jokes and tends to believe too much in what her heart says.",
+                "id": "Seorang penghibur ceria di LizNoir yang suka membuat orang tersenyum. Dia memiliki keterampilan yang solid tetapi sering menunjukkan ketidakmahiran yang luar biasa pada saat-saat penting. Dia sulit memahami lelucon dan cenderung terlalu percaya pada apa yang dikatakan hatinya."
+            }
+        ],
+        "detail": [
+            {
+                "height": 164,
+                "weight": 51,
+                "threesize": "85/59/86",
+                "birthday": "February 9",
+                "age": 16,
+                "eye_color": "blue",
+                "hair_color": "green",
+                "hair_length": "past waist",
+                "apparent_age": "teen",
+                "group": "LizNoir",
+                "hobby": "Working out, helping at home",
+                "mbti": "ESFJ",
+                "almameter": "Private Tsukide High School"
+            }
+        ],
+        "attribute": [
+            {
+                "hex_color": "#7eccee",
+                "group_icon": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/icon/IG%20Icon%20Group/IG_04.png",
+                "almameter_icon": null,
+                "va_icon": null
+            }
+        ],
+        "image": [
+            {
+                "icon": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/I%20Icon/I_ID16.png",
+                "sprite1": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/S01%20Sprite%201/S01_ID16.png",
+                "sprite2": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/S01%20Sprite%201/S01_ID16.png",
+                "main": null,
+                "birthday": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/BD%20Birthday/BD_ID16.jpg",
+                "keringat": null
+            }
+        ],
+        "voice": [
+            {
+                "voice1": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V01_ID16.mp3",
+                "voice2": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V02_ID16.mp3",
+                "voice3": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V03_ID16.mp3",
+                "voice4": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V04_ID16.mp3"
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "_id": "ID17",
+        "name": "Kokoro Akazaki",
+        "jpname": "赤崎こころ",
+        "va": "Aki Toyosaki (豊崎愛生)",
+        "description": [
+            {
+                "jp": "人懐っこくお調子者な、LizNoirの切り込み隊長。時折放つトゲのある物言いが、底を見えなくさせる。愛とはお互いを認め合う仲だが、良からぬことを吹き込みがち。",
+                "en": "An affectionate and lively member of LizNoir, serving as the team's frontline. Her occasionally sharp remarks leave others wondering about her true intentions. Love is about acknowledging each other, but she tends to influence others with negative thoughts.",
+                "id": "Seorang anggota LizNoir yang penuh kasih sayang dan bersemangat, menjadi garda depan tim. Komentar tajam yang kadang-kadang dia keluarkan membuat orang lain bertanya-tanya tentang niat sebenarnya. Cinta adalah tentang saling mengakui, tetapi dia cenderung memengaruhi orang lain dengan pikiran negatif."
+            }
+        ],
+        "detail": [
+            {
+                "height": 153,
+                "weight": 43,
+                "threesize": "74/54/73",
+                "birthday": "December 6",
+                "age": 14,
+                "eye_color": "pink",
+                "hair_color": "pink",
+                "hair_length": "to waist",
+                "apparent_age": "teen",
+                "group": "LizNoir",
+                "hobby": "Playing pranks, Studying cute poses",
+                "mbti": "ESFP",
+                "almameter": "Private Reiba Girls' Academy Junior High School"
+            }
+        ],
+        "attribute": [
+            {
+                "hex_color": "#fc9bb3",
+                "group_icon": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/icon/IG%20Icon%20Group/IG_04.png",
+                "almameter_icon": null,
+                "va_icon": null
+            }
+        ],
+        "image": [
+            {
+                "icon": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/I%20Icon/I_ID17.png",
+                "sprite1": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/S01%20Sprite%201/S01_ID17.png",
+                "sprite2": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/S01%20Sprite%201/S01_ID17.png",
+                "main": null,
+                "birthday": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/BD%20Birthday/BD_ID17.jpg",
+                "keringat": null
+            }
+        ],
+        "voice": [
+            {
+                "voice1": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V01_ID17.mp3",
+                "voice2": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V02_ID17.mp3",
+                "voice3": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V03_ID17.mp3",
+                "voice4": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V04_ID17.mp3"
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "_id": "ID18",
+        "name": "Mana Nagase",
+        "jpname": "長瀬麻奈",
+        "va": "Sayaka Kanda (神田沙也加)",
+        "description": [
+            {
+                "jp": "そこにいるだけで、周囲を笑顔にしてくれるアイドル。手が届かないようなスター性を感じさせる一方で、飾らない親しみやすさも持ち合わせる稀有な存在。",
+                "en": "An idol who brings smiles to those around her just by being there. She exudes a star quality that seems out of reach, while also possessing an unpretentious and approachable charm. She is a rare presence that combines both aspects.",
+                "id": "Seorang idola yang membuat orang di sekitarnya tersenyum hanya dengan keberadaannya. Dia memancarkan kualitas bintang yang tampak tak terjangkau, sambil juga memiliki pesona yang tulus dan mudah didekati. Dia adalah kehadiran yang langka yang menggabungkan kedua aspek tersebut."
+            }
+        ],
+        "detail": [
+            {
+                "height": 158,
+                "weight": 44,
+                "threesize": "82/55/80",
+                "birthday": "October 9",
+                "age": 19,
+                "eye_color": "blue",
+                "hair_color": "black",
+                "hair_length": "to chest",
+                "apparent_age": "forever teen",
+                "group": "Hoshimi Productions",
+                "hobby": "Idols, keeping a diary, karaoke",
+                "mbti": "ESFJ",
+                "almameter": "Private Seimei High School"
+            }
+        ],
+        "attribute": [
+            {
+                "hex_color": "#f251af",
+                "group_icon": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/icon/IG%20Icon%20Group/IG_00.png",
+                "almameter_icon": null,
+                "va_icon": null
+            }
+        ],
+        "image": [
+            {
+                "icon": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/I%20Icon/I_ID18.png",
+                "sprite1": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/S01%20Sprite%201/S01_ID18.png",
+                "sprite2": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/S01%20Sprite%201/S01_ID18.png",
+                "main": null,
+                "birthday": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/BD%20Birthday/BD_ID18.jpg",
+                "keringat": null
+            }
+        ],
+        "voice": [
+            {
+                "voice1": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V01_ID18.mp3",
+                "voice2": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V02_ID18.mp3",
+                "voice3": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V03_ID18.mp3",
+                "voice4": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V04_ID18.mp3"
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "_id": "ID19",
+        "name": "fran",
+        "jpname": "-",
+        "va": "Lynn",
+        "description": [
+            {
+                "jp": "抜群のスタイルを持つ、天才肌で努力を知らないカリスマ。ⅢⅩのセンターで、パリコレへの出場経験もあるトップモデル出身。ある理由から極端にお金に執着している。",
+                "en": "A charismatic individual with an outstanding physique and a genius-like talent, who knows nothing of hard work. She is the center of IIIX and a top model who has participated in Paris Collection. Due to certain reasons, she has an extreme obsession with money.",
+                "id": "Individu yang karismatik dengan fisik yang luar biasa dan bakat yang hebat, yang tidak mengenal kerja keras. Dia adalah pusat IIIX dan seorang model top yang telah berpartisipasi dalam Paris Collection. Karena alasan tertentu, dia memiliki obsesi yang sangat kuat terhadap uang."
+            }
+        ],
+        "detail": [
+            {
+                "height": 172,
+                "weight": 47,
+                "threesize": "82/54/86",
+                "birthday": "June 11",
+                "age": 22,
+                "eye_color": "green",
+                "hair_color": "blonde",
+                "hair_length": "to waist",
+                "apparent_age": "adult",
+                "group": "IIIX",
+                "hobby": "Fashion, stocks, money-making, business studies, manga",
+                "mbti": "ESFP",
+                "almameter": "Pret-a-Porter"
+            }
+        ],
+        "attribute": [
+            {
+                "hex_color": "#474744",
+                "group_icon": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/icon/IG%20Icon%20Group/IG_05.png",
+                "almameter_icon": null,
+                "va_icon": null
+            }
+        ],
+        "image": [
+            {
+                "icon": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/I%20Icon/I_ID19.png",
+                "sprite1": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/S01%20Sprite%201/S01_ID19.png",
+                "sprite2": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/S01%20Sprite%201/S01_ID19.png",
+                "main": null,
+                "birthday": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/BD%20Birthday/BD_ID19.jpg",
+                "keringat": null
+            }
+        ],
+        "voice": [
+            {
+                "voice1": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V01_ID19.mp3",
+                "voice2": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V02_ID19.mp3",
+                "voice3": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V03_ID19.mp3",
+                "voice4": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V04_ID19.mp3"
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "_id": "ID20",
+        "name": "kana",
+        "jpname": "-",
+        "va": "Aimi Tanaka (田中 あいみ)",
+        "description": [
+            {
+                "jp": "裏表が激しいが、ずば抜けたセンスを持つ小悪魔アイドル。大人気モデル出身で、小さい頃から数々の雑誌の表紙を飾っている。承認欲求が高く、SNSのフォロワーは200万以上。",
+                "en": "An idol with a volatile personality but possesses exceptional sense, like a mischievous devil. She is a former popular model who has graced the covers of numerous magazines since childhood. She has a strong desire for approval, with over 2 million followers on social media.",
+                "id": "Seorang idola dengan kepribadian yang bergejolak tetapi memiliki indra yang luar biasa, seperti setan nakal. Dia adalah mantan model populer yang telah menghiasi sampul majalah-majalah sejak kecil. Dia memiliki keinginan yang kuat untuk mendapatkan persetujuan, dengan lebih dari 2 juta pengikut di media sosial."
+            }
+        ],
+        "detail": [
+            {
+                "height": 166,
+                "weight": 44,
+                "threesize": "78/55/83",
+                "birthday": "April 10",
+                "age": 20,
+                "eye_color": "grey",
+                "hair_color": "grey",
+                "hair_length": "to neck",
+                "apparent_age": "adult",
+                "group": "IIIX",
+                "hobby": "SNS, parties",
+                "mbti": "ESFP",
+                "almameter": "Pret-a-Porter"
+            }
+        ],
+        "attribute": [
+            {
+                "hex_color": "#F1F000",
+                "group_icon": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/icon/IG%20Icon%20Group/IG_05.png",
+                "almameter_icon": null,
+                "va_icon": null
+            }
+        ],
+        "image": [
+            {
+                "icon": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/I%20Icon/I_ID20.png",
+                "sprite1": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/S01%20Sprite%201/S01_ID20.png",
+                "sprite2": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/S01%20Sprite%201/S01_ID20.png",
+                "main": null,
+                "birthday": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/BD%20Birthday/BD_ID20.jpg",
+                "keringat": null
+            }
+        ],
+        "voice": [
+            {
+                "voice1": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V01_ID20.mp3",
+                "voice2": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V02_ID20.mp3",
+                "voice3": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V03_ID20.mp3",
+                "voice4": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V04_ID20.mp3"
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "_id": "ID21",
+        "name": "miho",
+        "jpname": "-",
+        "va": "Rie Murakawa (村川 梨衣)",
+        "description": [
+            {
+                "jp": "豊富な経験と知識を活かして活動に励む理論派。BIG4に手が届く寸前で突如解散した、人気二人組アイドルのメンバーだった過去を持つ。グループのブレーン的存在で基本的に温厚だが、執念深い一面も。",
+                "en": "A rationalist who applies her extensive experience and knowledge in her activities. She was a member of a popular duo idol group that was on the verge of reaching the BIG4 but suddenly disbanded. She serves as the brain of the group and is generally gentle, but she also has a tenacious side.",
+                "id": "Seorang rasionalis yang menerapkan pengalaman dan pengetahuannya yang luas dalam kegiatan-kegiatannya. Dia adalah anggota dari duo idola populer yang hampir mencapai posisi BIG4 tetapi tiba-tiba bubar. Dia menjadi otak kelompok dan pada dasarnya lembut, tetapi dia juga memiliki sisi yang gigih."
+            }
+        ],
+        "detail": [
+            {
+                "height": 165,
+                "weight": 47,
+                "threesize": "87/54/84",
+                "birthday": "January 25",
+                "age": 24,
+                "eye_color": "purple",
+                "hair_color": "black",
+                "hair_length": "past waist",
+                "apparent_age": "adult",
+                "group": "IIIX",
+                "hobby": "Idols, researching the VENUS program",
+                "mbti": "ESTJ",
+                "almameter": "Pret-a-Porter"
+            }
+        ],
+        "attribute": [
+            {
+                "hex_color": "#020202",
+                "group_icon": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/icon/IG%20Icon%20Group/IG_05.png",
+                "almameter_icon": null,
+                "va_icon": null
+            }
+        ],
+        "image": [
+            {
+                "icon": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/I%20Icon/I_ID21.png",
+                "sprite1": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/S01%20Sprite%201/S01_ID21.png",
+                "sprite2": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/S01%20Sprite%201/S01_ID21.png",
+                "main": null,
+                "birthday": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/BD%20Birthday/BD_ID21.jpg",
+                "keringat": null
+            }
+        ],
+        "voice": [
+            {
+                "voice1": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V01_ID21.mp3",
+                "voice2": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V02_ID21.mp3",
+                "voice3": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V03_ID21.mp3",
+                "voice4": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V04_ID21.mp3"
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "_id": "ID22",
+        "name": "Konan Raimu",
+        "jpname": "小南来夢",
+        "va": "Ai Nonaka (野中藍)",
+        "description": [
+            {
+                "jp": "-",
+                "en": "-",
+                "id": "-"
+            }
+        ],
+        "detail": [
+            {
+                "height": null,
+                "weight": null,
+                "threesize": "-/-/-",
+                "birthday": "-",
+                "age": null,
+                "eye_color": "red",
+                "hair_color": "grey with some red",
+                "hair_length": "to shoulders",
+                "apparent_age": "-",
+                "group": "DORIKYUN",
+                "hobby": "-",
+                "mbti": "-",
+                "almameter": "-"
+            }
+        ],
+        "attribute": [
+            {
+                "hex_color": "#000000",
+                "group_icon": null,
+                "almameter_icon": null,
+                "va_icon": null
+            }
+        ],
+        "image": [
+            {
+                "icon": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/I%20Icon/I_ID22.png",
+                "sprite1": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/S01%20Sprite%201/S01_ID22.png",
+                "sprite2": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/S01%20Sprite%201/S01_ID22.png",
+                "main": null,
+                "birthday": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/BD%20Birthday/BD_ID22.jpg",
+                "keringat": null
+            }
+        ],
+        "voice": [
+            {
+                "voice1": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V01_ID22.mp3",
+                "voice2": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V02_ID22.mp3",
+                "voice3": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V03_ID22.mp3",
+                "voice4": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V04_ID22.mp3"
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "_id": "ID23",
+        "name": "Osuka Lemon",
+        "jpname": "大須賀れもん",
+        "va": "Yui Ishikawa (石川由依)",
+        "description": [
+            {
+                "jp": "-",
+                "en": "-",
+                "id": "-"
+            }
+        ],
+        "detail": [
+            {
+                "height": null,
+                "weight": null,
+                "threesize": "-/-/-",
+                "birthday": "-",
+                "age": null,
+                "eye_color": "grey",
+                "hair_color": "purple",
+                "hair_length": "to waist",
+                "apparent_age": "-",
+                "group": "DORIKYUN",
+                "hobby": "-",
+                "mbti": "-",
+                "almameter": "-"
+            }
+        ],
+        "attribute": [
+            {
+                "hex_color": "#000000",
+                "group_icon": null,
+                "almameter_icon": null,
+                "va_icon": null
+            }
+        ],
+        "image": [
+            {
+                "icon": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/I%20Icon/I_ID23.png",
+                "sprite1": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/S01%20Sprite%201/S01_ID23.png",
+                "sprite2": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/S01%20Sprite%201/S01_ID23.png",
+                "main": null,
+                "birthday": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/idol/BD%20Birthday/BD_ID23.jpg",
+                "keringat": null
+            }
+        ],
+        "voice": [
+            {
+                "voice1": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V01_ID23.mp3",
+                "voice2": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V02_ID23.mp3",
+                "voice3": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V03_ID23.mp3",
+                "voice4": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/voice/V04_ID23.mp3"
+            }
+        ]
+    }
 ]
