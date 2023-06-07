@@ -4,8 +4,9 @@ import json
 import os
 
 app = Flask(__name__)
-CORS(app)
-cors = CORS(app, resources={r"/api/*": {"origins": "https://idoly-pride-api.vercel.app"}})
+cors = CORS(app, resources={
+    r"/api/*": {"origins": ["https://idoly-pride-api.vercel.app", "http://localhost:5173", "https://idolyp.vercel.app"]}
+})
 
 # Decorator untuk menambahkan header setelah respons dikirimkan
 @app.after_request
