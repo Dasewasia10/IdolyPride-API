@@ -25,8 +25,6 @@ To get started with the API, follow the instructions below.
    git clone https://github.com/Dasewasia10/IdolyPride-API.git
    ```
 
-````
-
 Note: It's recommended to use venv as environment. See [venv](https://docs.python.org/3/library/venv.html) for more details.
 
 2. Install the required dependencies:
@@ -154,4 +152,3 @@ This project is licensed under the [MIT License](LICENSE).
 Special thanks to [Idoly Pride](https://idolypride.jp/) for providing the data used in this API.
 
 ```
-````
