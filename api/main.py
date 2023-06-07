@@ -8,12 +8,6 @@ cors = CORS(app, resources={
     r"/api/*": {"origins": ["https://idoly-pride-api.vercel.app", "http://localhost:5173", "https://idolyp.vercel.app"]}
 })
 
-# Decorator untuk menambahkan header setelah respons dikirimkan
-@app.after_request
-def add_cors_headers(response):
-    response.headers['Access-Control-Allow-Origin'] = 'https://idoly-pride-api.vercel.app'
-    return response
-
 ## CARD
 # Membaca file JSON 
 with open('api/card.json', 'r') as file:
