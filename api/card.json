@@ -8,6 +8,7 @@
 		"type": "Scorer",
 		"ability": "Visual",
 		"initial": 5,
+		"limited": false,
 		"live-skill": [
 			{
 				"sid": 1,
