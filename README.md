@@ -112,6 +112,10 @@ Here are some examples of how to use the API endpoints:
 
 - Get a card by \_id.
 
+  ```bash
+  GET /api/card/ID01
+  ```
+
 - Add a new card:
 
   ```bash
