@@ -49,6 +49,6 @@
 			{ "level": 5, "description": "Increase Vocal by 4.0%" },
 			{ "level": 6, "description": "Increase Vocal by 5.0%" }
 		],
-		"image": [{ "icon": null, "full": null }]
+		"image": [{ "icon": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/archive/cropped_image_33(1).jpg", "full": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/archive/20220428_025638.jpg" }]
 	}
 ]
