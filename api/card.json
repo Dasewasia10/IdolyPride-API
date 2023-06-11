@@ -298,11 +298,11 @@
 		"title": "Dream Collaboration",
 		"name": "Kotono Nagase",
 		"jpname": "夢の共演",
-		"quote": "It's Gyo-Gyogyoto-san! I never met the real thing before! I really love this fish! Yay! I can't believe we can be on the same stage!",
-		"type": "Scorer",
-		"ability": "Visual",
-		"initial": 5,
-		"limited": false,
+		"quote": "It's Kotono, desu",
+		"type": "Buffer",
+		"ability": "Dance",
+		"initial": 4,
+		"limited": true,
 		"maxPower": 91340,
 		"power": [
 			{ "vocal": 73080, "dance": 53940, "visual": 46980, "stamina": 4800 }
