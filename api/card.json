@@ -9,36 +9,264 @@
 		"ability": "Visual",
 		"initial": 5,
 		"limited": false,
-		"live-skill": [
+		"maxPower": 91340,
+		"power": [
+			{ "vocal": 73080, "dance": 53940, "visual": 46980, "stamina": 4800 }
+		],
+		"advantages": "Longtext",
+		"disadvantages": "Longtext",
+		"liveSkill": [
 			{
 				"sid": 1,
 				"name": "With the Sunlight",
+				"type": "SP",
 				"description": [
 					{
 						"level": 1,
-						"description": "1050% Score gain, effect increases with more Buffs. STA 337 cost"
+						"description": "1050% Score Acquisition, effect increases with more Buffs."
 					},
 					{
 						"level": 2,
-						"description": "1150% Score gain, effect increases with more Buffs. STA 369 cost"
+						"description": "1150% Score Acquisition, effect increases with more Buffs."
 					},
 					{
 						"level": 3,
-						"description": "1250% Score gain, effect increases with more Buffs. STA 401 cost"
+						"description": "1250% Score Acquisition, effect increases with more Buffs."
 					},
 					{
 						"level": 4,
-						"description": "1400% Score gain, effect increases with more Buffs. STA 449 cost"
+						"description": "1400% Score Acquisition, effect increases with more Buffs."
 					},
 					{
 						"level": 5,
-						"description": "1550% Score gain, effect increases with more Buffs. STA 497 cost"
+						"description": "1550% Score Acquisition, effect increases with more Buffs."
 					},
 					{
 						"level": 6,
-						"description": "1700% Score gain, effect increases with more Buffs. STA 545 cost"
+						"description": "1700% Score Acquisition, effect increases with more Buffs."
 					}
-				]
+				],
+				"beat": [
+					{
+						"level": 1,
+						"count": null
+					},
+					{
+						"level": 2,
+						"count": null
+					},
+					{
+						"level": 3,
+						"count": null
+					},
+					{
+						"level": 4,
+						"count": null
+					},
+					{
+						"level": 5,
+						"count": null
+					},
+					{
+						"level": 6,
+						"count": null
+					}
+				],
+				"stamina": [
+					{
+						"level": 1,
+						"cost": 337
+					},
+					{
+						"level": 2,
+						"cost": 369
+					},
+					{
+						"level": 3,
+						"cost": 401
+					},
+					{
+						"level": 4,
+						"cost": 449
+					},
+					{
+						"level": 5,
+						"cost": 497
+					},
+					{
+						"level": 6,
+						"cost": 545
+					}
+				],
+				"CT": null
+			},
+			{
+				"sid": 2,
+				"name": "Character that I loved",
+				"type": "A",
+				"description": [
+					{
+						"level": 1,
+						"description": "350% Score Acquisition. 7-level vocal rise effect on self"
+					},
+					{
+						"level": 2,
+						"description": "370% Score Acquisition. 7-level vocal rise effect on self"
+					},
+					{
+						"level": 3,
+						"description": "390% Score Acquisition. 8-level vocal rise effect on self"
+					},
+					{
+						"level": 4,
+						"description": "410% Score Acquisition. 8-level vocal rise effect on self"
+					},
+					{
+						"level": 5,
+						"description": "430% Score Acquisition. 9-level vocal rise effect on self"
+					},
+					{
+						"level": 6,
+						"description": "450% Score Acquisition. 9-level vocal rise effect on self"
+					}
+				],
+				"beat": [
+					{
+						"level": 1,
+						"count": 15
+					},
+					{
+						"level": 2,
+						"count": 20
+					},
+					{
+						"level": 3,
+						"count": 20
+					},
+					{
+						"level": 4,
+						"count": 25
+					},
+					{
+						"level": 5,
+						"count": 25
+					},
+					{
+						"level": 6,
+						"count": 30
+					}
+				],
+				"stamina": [
+					{
+						"level": 1,
+						"cost": 111
+					},
+					{
+						"level": 2,
+						"cost": 121
+					},
+					{
+						"level": 3,
+						"cost": 129
+					},
+					{
+						"level": 4,
+						"cost": 140
+					},
+					{
+						"level": 5,
+						"cost": 148
+					},
+					{
+						"level": 6,
+						"cost": 159
+					}
+				],
+				"CT": 30
+			},
+			{
+				"sid": 3,
+				"name": "Double Life",
+				"type": "P",
+				"description": [
+					{
+						"level": 1,
+						"description": "100 combo or more. Get 80% score 7-level vocal rise effect on self"
+					},
+					{
+						"level": 2,
+						"description": "100 combo or more. Get 100% score 8-level vocal rise effect on self"
+					},
+					{
+						"level": 3,
+						"description": "100 combo or more. Get 120% score 8-level vocal rise effect on self"
+					},
+					{
+						"level": 4,
+						"description": "100 combo or more. Get 140% score 9-level vocal rise effect on self"
+					},
+					{
+						"level": 5,
+						"description": "100 combo or more. Get 160% score 9-level vocal rise effect on self"
+					},
+					{
+						"level": 6,
+						"description": "100 combo or more. Get 180% score 10-level vocal rise effect on self"
+					}
+				],
+				"beat": [
+					{
+						"level": 1,
+						"count": 29
+					},
+					{
+						"level": 2,
+						"count": 29
+					},
+					{
+						"level": 3,
+						"count": 32
+					},
+					{
+						"level": 4,
+						"count": 32
+					},
+					{
+						"level": 5,
+						"count": 36
+					},
+					{
+						"level": 6,
+						"count": 36
+					}
+				],
+				"stamina": [
+					{
+						"level": 1,
+						"cost": 279
+					},
+					{
+						"level": 2,
+						"cost": 331
+					},
+					{
+						"level": 3,
+						"cost": 378
+					},
+					{
+						"level": 4,
+						"cost": 432
+					},
+					{
+						"level": 5,
+						"cost": 490
+					},
+					{
+						"level": 6,
+						"cost": 547
+					}
+				],
+				"CT": null
 			}
 		],
 		"cheer": [
@@ -49,6 +277,314 @@
 			{ "level": 5, "description": "Increase Vocal by 4.0%" },
 			{ "level": 6, "description": "Increase Vocal by 5.0%" }
 		],
-		"image": [{ "icon": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/archive/cropped_image_33(1).jpg", "full": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/archive/20220428_025638.jpg" }]
+		"image": [
+			{
+				"icon_frame": null,
+				"icon": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/archive/cropped_image_33(1).jpg",
+				"full": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/archive/20220428_025638.jpg"
+			}
+		],
+		"story": [
+			{
+				"s1": null,
+				"s2": null,
+				"s3": null
+			}
+		],
+		"dateRelease": ""
+	},
+	{
+		"id": 2,
+		"title": "Dream Collaboration",
+		"name": "Kotono Nagase",
+		"jpname": "夢の共演",
+		"quote": "It's Gyo-Gyogyoto-san! I never met the real thing before! I really love this fish! Yay! I can't believe we can be on the same stage!",
+		"type": "Scorer",
+		"ability": "Visual",
+		"initial": 5,
+		"limited": false,
+		"maxPower": 91340,
+		"power": [
+			{ "vocal": 73080, "dance": 53940, "visual": 46980, "stamina": 4800 }
+		],
+		"advantages": "Longtext",
+		"disadvantages": "Longtext",
+		"liveSkill": [
+			{
+				"sid": 1,
+				"name": "With the Sunlight",
+				"type": "SP",
+				"description": [
+					{
+						"level": 1,
+						"description": "1050% Score Acquisition, effect increases with more Buffs."
+					},
+					{
+						"level": 2,
+						"description": "1150% Score Acquisition, effect increases with more Buffs."
+					},
+					{
+						"level": 3,
+						"description": "1250% Score Acquisition, effect increases with more Buffs."
+					},
+					{
+						"level": 4,
+						"description": "1400% Score Acquisition, effect increases with more Buffs."
+					},
+					{
+						"level": 5,
+						"description": "1550% Score Acquisition, effect increases with more Buffs."
+					},
+					{
+						"level": 6,
+						"description": "1700% Score Acquisition, effect increases with more Buffs."
+					}
+				],
+				"beat": [
+					{
+						"level": 1,
+						"count": null
+					},
+					{
+						"level": 2,
+						"count": null
+					},
+					{
+						"level": 3,
+						"count": null
+					},
+					{
+						"level": 4,
+						"count": null
+					},
+					{
+						"level": 5,
+						"count": null
+					},
+					{
+						"level": 6,
+						"count": null
+					}
+				],
+				"stamina": [
+					{
+						"level": 1,
+						"cost": 337
+					},
+					{
+						"level": 2,
+						"cost": 369
+					},
+					{
+						"level": 3,
+						"cost": 401
+					},
+					{
+						"level": 4,
+						"cost": 449
+					},
+					{
+						"level": 5,
+						"cost": 497
+					},
+					{
+						"level": 6,
+						"cost": 545
+					}
+				],
+				"CT": null
+			},
+			{
+				"sid": 2,
+				"name": "Character that I loved",
+				"type": "A",
+				"description": [
+					{
+						"level": 1,
+						"description": "350% Score Acquisition. 7-level vocal rise effect on self"
+					},
+					{
+						"level": 2,
+						"description": "370% Score Acquisition. 7-level vocal rise effect on self"
+					},
+					{
+						"level": 3,
+						"description": "390% Score Acquisition. 8-level vocal rise effect on self"
+					},
+					{
+						"level": 4,
+						"description": "410% Score Acquisition. 8-level vocal rise effect on self"
+					},
+					{
+						"level": 5,
+						"description": "430% Score Acquisition. 9-level vocal rise effect on self"
+					},
+					{
+						"level": 6,
+						"description": "450% Score Acquisition. 9-level vocal rise effect on self"
+					}
+				],
+				"beat": [
+					{
+						"level": 1,
+						"count": 15
+					},
+					{
+						"level": 2,
+						"count": 20
+					},
+					{
+						"level": 3,
+						"count": 20
+					},
+					{
+						"level": 4,
+						"count": 25
+					},
+					{
+						"level": 5,
+						"count": 25
+					},
+					{
+						"level": 6,
+						"count": 30
+					}
+				],
+				"stamina": [
+					{
+						"level": 1,
+						"cost": 111
+					},
+					{
+						"level": 2,
+						"cost": 121
+					},
+					{
+						"level": 3,
+						"cost": 129
+					},
+					{
+						"level": 4,
+						"cost": 140
+					},
+					{
+						"level": 5,
+						"cost": 148
+					},
+					{
+						"level": 6,
+						"cost": 159
+					}
+				],
+				"CT": 30
+			},
+			{
+				"sid": 3,
+				"name": "Double Life",
+				"type": "P",
+				"description": [
+					{
+						"level": 1,
+						"description": "100 combo or more. Get 80% score 7-level vocal rise effect on self"
+					},
+					{
+						"level": 2,
+						"description": "100 combo or more. Get 100% score 8-level vocal rise effect on self"
+					},
+					{
+						"level": 3,
+						"description": "100 combo or more. Get 120% score 8-level vocal rise effect on self"
+					},
+					{
+						"level": 4,
+						"description": "100 combo or more. Get 140% score 9-level vocal rise effect on self"
+					},
+					{
+						"level": 5,
+						"description": "100 combo or more. Get 160% score 9-level vocal rise effect on self"
+					},
+					{
+						"level": 6,
+						"description": "100 combo or more. Get 180% score 10-level vocal rise effect on self"
+					}
+				],
+				"beat": [
+					{
+						"level": 1,
+						"count": 29
+					},
+					{
+						"level": 2,
+						"count": 29
+					},
+					{
+						"level": 3,
+						"count": 32
+					},
+					{
+						"level": 4,
+						"count": 32
+					},
+					{
+						"level": 5,
+						"count": 36
+					},
+					{
+						"level": 6,
+						"count": 36
+					}
+				],
+				"stamina": [
+					{
+						"level": 1,
+						"cost": 279
+					},
+					{
+						"level": 2,
+						"cost": 331
+					},
+					{
+						"level": 3,
+						"cost": 378
+					},
+					{
+						"level": 4,
+						"cost": 432
+					},
+					{
+						"level": 5,
+						"cost": 490
+					},
+					{
+						"level": 6,
+						"cost": 547
+					}
+				],
+				"CT": null
+			}
+		],
+		"cheer": [
+			{ "level": 1, "description": "Increase Vocal by 1.0%" },
+			{ "level": 2, "description": "Increase Vocal by 1.5%" },
+			{ "level": 3, "description": "Increase Vocal by 2.0%" },
+			{ "level": 4, "description": "Increase Vocal by 3.0%" },
+			{ "level": 5, "description": "Increase Vocal by 4.0%" },
+			{ "level": 6, "description": "Increase Vocal by 5.0%" }
+		],
+		"image": [
+			{
+				"icon_frame": null,
+				"icon": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/archive/cropped_image_33(1).jpg",
+				"full": "https://github.com/Dasewasia10/IdolyPride-image-voice-collection/raw/main/image/archive/20220428_025638.jpg"
+			}
+		],
+		"story": [
+			{
+				"s1": null,
+				"s2": null,
+				"s3": null
+			}
+		],
+		"dateRelease": ""
 	}
 ]

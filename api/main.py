@@ -10,7 +10,7 @@ cors = CORS(app, resources={
 
 ## CARD
 # Membaca file JSON 
-with open('api/card.json', 'r') as file:
+with open('card.json', 'r') as file:
     card = json.load(file)
 
 # Route dengan metode GET
@@ -27,6 +27,55 @@ def get_card(id):
 
     return jsonify({"message": "card not found"})
 
+# Route dengan metode GET
+@app.route('/api/card/name/<name>', methods=['GET'])
+def get_cards_by_name(name):
+    # Mengubah underscore menjadi spasi
+    name_with_spaces = name.replace("_", " ")
+
+    cards = []
+    reversed_name = " ".join(reversed(name_with_spaces.split(" ")))
+    # Mencari idol berdasarkan nama asli
+    for item in card:
+        if item['name'].lower() == name_with_spaces.lower():
+            cards.append(item)
+        elif item['name'].lower().startswith(name_with_spaces.lower()) or item['name'].lower() == reversed_name.lower():
+            cards.append(item)
+    
+    if cards:
+        return jsonify(cards)
+    else:
+        return jsonify({"message": "idol not found"})
+
+# Route dengan metode GET
+@app.route('/api/card/type/<type>', methods=['GET'])
+def get_cards_by_type(type):
+    cards = []
+    # Mencari card berdasarkan type
+    for item in card:
+        if item['type'].lower() == type.lower():
+            cards.append(item)
+    
+    if cards:
+        return jsonify(cards)
+    else:
+        return jsonify({"message": "idol not found"})
+
+# Route dengan metode GET
+@app.route('/api/card/ability/<ability>', methods=['GET'])
+def get_cards_by_ability(ability):
+    cards = []
+    # Mencari card berdasarkan type
+    for item in card:
+        if item['ability'].lower() == ability.lower():
+            cards.append(item)
+    
+    if cards:
+        return jsonify(cards)
+    else:
+        return jsonify({"message": "idol not found"})
+
+# Route dengan metode POST
 @app.route('/api/card', methods=['POST'])
 def add_card():
     new_card = request.get_json()  # Mendapatkan card baru dari body permintaan
@@ -65,7 +114,7 @@ def delete_card(id):
 
 ## IDOL
 # Membaca file JSON 
-with open('api/idol.json', 'r') as file:
+with open('idol.json', 'r') as file:
     idol = json.load(file)
 
 # Route dengan metode GET 
@@ -92,7 +141,6 @@ def get_idol_by__id(_id):
 
     return jsonify({"message": "card not found"})
 
-# Route dengan metode GET
 # Route dengan metode GET
 @app.route('/api/idol/name/<name>', methods=['GET'])
 def get_idol_by_name(name):
